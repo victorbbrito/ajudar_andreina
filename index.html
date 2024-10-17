@@ -1,0 +1,40 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria Order</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Cafeteria Order</h1>
+    <form id="order-form">
+        <label for="item">Select Item:</label>
+        <select id="item" name="item">
+            <option value="coffee">Coffee</option>
+            <option value="tea">Tea</option>
+            <option value="milkshake">Milkshake</option>
+        </select>
+        <br><br>
+        <label for="size">Select Size:</label>
+        <select id="size" name="size">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+        </select>
+        <br><br>
+        <label for="milk-type">Select Milk Type:</label>
+        <select id="milk-type" name="milk-type">
+            <option value="whole-milk">Whole Milk</option>
+            <option value="skim-milk">Skim Milk</option>
+            <option value="almond-milk">Almond Milk</option>
+        </select>
+        <br><br>
+        <button id="add-to-cart">Add to Cart</button>
+    </form>
+    <div id="total-price"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
